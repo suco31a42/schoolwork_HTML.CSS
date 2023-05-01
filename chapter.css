@@ -1,0 +1,36 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 110px;
+}
+
+.header-text {
+  color: #FFA500;
+  padding: 30px 0 0 10px;
+}
+
+nav {
+  height: 500px;
+}
+
+.nav-box {
+  padding-left: 10px;
+}
+
+.nav-list {
+  padding-bottom: 20px;
+}
+
+.nav-title {
+  
+}
+
+.nav-text {
+  padding: 15px 0 15px 0;
+}
+
