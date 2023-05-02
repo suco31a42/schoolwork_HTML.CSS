@@ -23,7 +23,6 @@ main {
   background-color: #eeeeee;
   position: relative;
   padding: 10px;
-  
 }
 
 .container:last-child {
@@ -61,9 +60,37 @@ main {
   padding: 15px 0 5px 0;
 }
 
-
 footer {
   background-color: #aaaaaa;
   height: 50px;
   width: 100%;
 }
+
+/* すべての画面サイズで適用される設定 */
+.social i {
+  
+}
+/* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
+@media screen and (max-width:1024px) {
+  .social i {
+    
+  }
+}
+/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
+@media screen and (max-width:768px) {
+  .social i {
+   
+  }
+}
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width:425px) {
+  .social i {
+   
+  }
+}
+
+
+
+
+
+
