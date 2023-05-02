@@ -4,3 +4,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  height: 400px;
+  width: 100%;
+  background-image: url(lesson7_img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.header-logo {
+  padding: 20px;
+}
+
+main {
+  margin: 50px auto;
+  width: 840px;
+}
+
+.main-top {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+p {
+  padding-top: 5px;
+}
