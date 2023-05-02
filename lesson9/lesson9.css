@@ -66,31 +66,27 @@ footer {
   width: 100%;
 }
 
-/* すべての画面サイズで適用される設定 */
-.social i {
-  
-}
-/* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
-@media screen and (max-width:1024px) {
-  .social i {
-    
-  }
-}
+
+
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {
-  .social i {
-   
+  main {
+    display: block;
+    width: 100%;
+    margin: 50px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto 20px; 
+    
+  }
+  
+  .container:last-child {
+    margin: 0 auto;
+  }
+  
+  .img {
+    height: 150px;
   }
 }
-/* スマートフォンサイズ（425px）以下の際に適用される設定 */
-@media screen and (max-width:425px) {
-  .social i {
-   
-  }
-}
-
-
-
-
-
-
