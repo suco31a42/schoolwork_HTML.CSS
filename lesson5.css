@@ -1,0 +1,67 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-link {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.nav-list {
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.nav-list-link {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.box {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-container1 {
+  background-color: #e6ffe9;
+  height: 200px;
+  width: 200px;
+}
+
+.box-container2 {
+  background-color: #cbffd3;
+  height: 200px;
+  width: 200px;
+}
+
+
+.box-container3 {
+  
+}
+
+.box-container4 {
+  
+}
+
+.box-container5 {
+  
+}
+
+.box-container6 {
+  
+}
+
+.box-container7 {
+  
+}
+
+.box-container8 {
+  
+}
